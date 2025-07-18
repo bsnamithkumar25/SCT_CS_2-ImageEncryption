@@ -1,0 +1,20 @@
+--- Sample Input Command ---
+
+Encrypt using Pixel Swap:
+python main.py encrypt input/sample.jpg output/encrypted.jpg --method swap
+
+Decrypt using Pixel Swap:
+python main.py decrypt output/encrypted.jpg output/decrypted.jpg --method swap
+
+Encrypt using Math Operation:
+python main.py encrypt input/sample.jpg output/encrypted_math.jpg --method math
+
+Decrypt using Math Operation:
+python main.py decrypt output/encrypted_math.jpg output/decrypted_math.jpg --method math
+
+--- Expected Output Files ---
+
+output/encrypted.jpg
+output/decrypted.jpg
+output/encrypted_math.jpg
+output/decrypted_math.jpg

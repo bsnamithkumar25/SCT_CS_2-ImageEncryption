@@ -1,0 +1,20 @@
+Task 2: Image Encryption Tool
+
+Author: B S Namith Kumar
+Track: Cybersecurity
+Internship: SkillCraft Technology
+
+Summary:
+This Python script encrypts and decrypts images using two simple techniques:
+
+1. Pixel Swapping: Each pixel swaps position with its neighbor, creating a visually distorted version of the image. Decryption reverses the process.
+2. Mathematical Transformation: A fixed constant is added to the pixel values (modulo 256). This too is fully reversible.
+
+Learnings:
+- Pixel-level manipulation using NumPy and PIL
+- Understanding how simple transformations can obscure visual data
+- Writing clean, interactive CLI tools using argparse
+- Structuring Python projects for clarity and reusability
+
+Repo:
+https://github.com/bsnamithkumar25/SCT_CS_2-ImageEncryption
